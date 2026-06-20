@@ -1,63 +1,41 @@
-# Crime Rate Prediction (Web-Based Project)
+# Third Eye Glass for Blind
 
 ## Description
 
-Crime Rate Prediction is a web-based application that uses historical crime data and machine learning techniques to analyze patterns and predict future crime trends. The system helps identify potential crime hotspots, enabling proactive decision-making for law enforcement agencies and city planners.
+Third Eye Glass for Blind is an Arduino-based wearable assistive device that helps visually impaired individuals navigate safely. The system uses ultrasonic sensors to detect obstacles and provides real-time alerts through a vibration motor and buzzer, improving mobility, safety, and independence.
 
 ## Features
 
-* Crime data collection and integration from multiple sources
-* Machine learning-based crime trend prediction
-* Interactive and user-friendly web interface
-* Data visualization through charts and reports
-* Geospatial mapping of predicted crime-prone areas
-* Real-time crime statistics updates
-* Support for informed resource allocation and crime prevention
+* Real-time obstacle detection using ultrasonic sensors
+* Dual alert system with vibration and audio feedback
+* Compact, lightweight, and wearable design
+* Low-cost and energy-efficient solution
+* Suitable for indoor and outdoor navigation
+* Enhances safety and independence for visually impaired users
 
-## Technologies Used
+## Components Used
 
-* HTML
-* CSS
-* JavaScript
-* C#
-* ASP.NET
-* SQL Server
-* Machine Learning
+* Arduino Uno
+* HC-SR04 Ultrasonic Sensor
+* Buzzer
+* Vibration Motor
+* Battery Pack
+* Connecting Wires
+* Breadboard/PCB
 
 ## Skills Demonstrated
 
-* Web Development
-* Front-End Development
-* Machine Learning
-* Data Analysis
-* Predictive Analytics
-* Database Management
-* Data Visualization
-* Geospatial Analysis
+* Embedded Systems
+* Arduino Programming
+* Circuit Design
+* Sensor Integration
+* Hardware Prototyping
+* Electronics Troubleshooting
 
 ## Applications
 
-* Crime Trend Forecasting
-* Smart City Planning
-* Public Safety Analysis
-* Law Enforcement Decision Support
-* Resource Allocation and Risk Assessment
-
-## Project Structure
-
-Crime-Rate-Prediction/
-
-├── README.md
-
-├── index.html
-
-├── style.css
-
-├── script.js
-
-├── CrimeData.cs
-
-├── PredictionModel.cs
-
-└── CrimeDB.sql
-
+* Assistive Technology
+* Smart Navigation Systems
+* Obstacle Detection Devices
+* Wearable Electronics
+* Smart Mobility Solutions for the Visually Impaired
