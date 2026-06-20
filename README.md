@@ -1,45 +1,63 @@
-const int trigPin = 9;
-const int echoPin = 10;
-const int buzzer = 8;
-const int vibrationMotor = 7;
+# Crime Rate Prediction (Web-Based Project)
 
-long duration;
-int distance;
+## Description
 
-void setup() {
-  pinMode(trigPin, OUTPUT);
-  pinMode(echoPin, INPUT);
-  pinMode(buzzer, OUTPUT);
-  pinMode(vibrationMotor, OUTPUT);
-  Serial.begin(9600);
-}
+Crime Rate Prediction is a web-based application that uses historical crime data and machine learning techniques to analyze patterns and predict future crime trends. The system helps identify potential crime hotspots, enabling proactive decision-making for law enforcement agencies and city planners.
 
-void loop() {
+## Features
 
-  digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
+* Crime data collection and integration from multiple sources
+* Machine learning-based crime trend prediction
+* Interactive and user-friendly web interface
+* Data visualization through charts and reports
+* Geospatial mapping of predicted crime-prone areas
+* Real-time crime statistics updates
+* Support for informed resource allocation and crime prevention
 
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
+## Technologies Used
 
-  digitalWrite(trigPin, LOW);
+* HTML
+* CSS
+* JavaScript
+* C#
+* ASP.NET
+* SQL Server
+* Machine Learning
 
-  duration = pulseIn(echoPin, HIGH);
+## Skills Demonstrated
 
-  distance = duration * 0.034 / 2;
+* Web Development
+* Front-End Development
+* Machine Learning
+* Data Analysis
+* Predictive Analytics
+* Database Management
+* Data Visualization
+* Geospatial Analysis
 
-  Serial.print("Distance: ");
-  Serial.print(distance);
-  Serial.println(" cm");
+## Applications
 
-  if (distance <= 100) {
-    digitalWrite(buzzer, HIGH);
-    digitalWrite(vibrationMotor, HIGH);
-    delay(200);
-  } else {
-    digitalWrite(buzzer, LOW);
-    digitalWrite(vibrationMotor, LOW);
-  }
+* Crime Trend Forecasting
+* Smart City Planning
+* Public Safety Analysis
+* Law Enforcement Decision Support
+* Resource Allocation and Risk Assessment
 
-  delay(100);
-}
+## Project Structure
+
+Crime-Rate-Prediction/
+
+├── README.md
+
+├── index.html
+
+├── style.css
+
+├── script.js
+
+├── CrimeData.cs
+
+├── PredictionModel.cs
+
+└── CrimeDB.sql
+
